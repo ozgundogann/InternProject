@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>571</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(187, 204, 229, 228);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>571</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(76, 167, 70);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar_Left">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionInfo"/>
+   <addaction name="actionL1"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_Right">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionReset"/>
+   <addaction name="actionBack"/>
+   <addaction name="actionForward"/>
+   <addaction name="actionShift"/>
+   <addaction name="actionChWievs"/>
+  </widget>
+  <action name="actionBack">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Back.png</normaloff>:/IconsRight/icons/Right ToolBar/Back.png</iconset>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </action>
+  <action name="actionChWievs">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Change views.png</normaloff>:/IconsRight/icons/Right ToolBar/Change views.png</iconset>
+   </property>
+   <property name="text">
+    <string>ChWievs</string>
+   </property>
+  </action>
+  <action name="actionConfig">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Configuration.png</normaloff>:/IconsRight/icons/Right ToolBar/Configuration.png</iconset>
+   </property>
+   <property name="text">
+    <string>Config</string>
+   </property>
+  </action>
+  <action name="actionForward">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Forward.png</normaloff>:/IconsRight/icons/Right ToolBar/Forward.png</iconset>
+   </property>
+   <property name="text">
+    <string>Forward</string>
+   </property>
+  </action>
+  <action name="actionMapping">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Mapping mode.png</normaloff>:/IconsRight/icons/Right ToolBar/Mapping mode.png</iconset>
+   </property>
+   <property name="text">
+    <string>Mapping</string>
+   </property>
+  </action>
+  <action name="actionPan">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/PanningMode.png</normaloff>:/IconsRight/icons/Right ToolBar/PanningMode.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pan</string>
+   </property>
+  </action>
+  <action name="actionPause">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Pause.png</normaloff>:/IconsRight/icons/Right ToolBar/Pause.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pause</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Reset.png</normaloff>:/IconsRight/icons/Right ToolBar/Reset.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </action>
+  <action name="actionShift">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/Shift.png</normaloff>:/IconsRight/icons/Right ToolBar/Shift.png</iconset>
+   </property>
+   <property name="text">
+    <string>Shift</string>
+   </property>
+  </action>
+  <action name="actionR1">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/myProject10.png</normaloff>:/IconsRight/icons/Right ToolBar/myProject10.png</iconset>
+   </property>
+   <property name="text">
+    <string>R1</string>
+   </property>
+  </action>
+  <action name="actionR2">
+   <property name="icon">
+    <iconset resource="IconsRight.qrc">
+     <normaloff>:/IconsRight/icons/Right ToolBar/myProject11.png</normaloff>:/IconsRight/icons/Right ToolBar/myProject11.png</iconset>
+   </property>
+   <property name="text">
+    <string>R2</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="icon">
+    <iconset resource="IconsAndGifs.qrc">
+     <normaloff>:/resourcesLeft/icons/Left ToolBar/myProject.png</normaloff>:/resourcesLeft/icons/Left ToolBar/myProject.png</iconset>
+   </property>
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+  <action name="actionL1">
+   <property name="icon">
+    <iconset resource="IconsAndGifs.qrc">
+     <normaloff>:/resourcesLeft/icons/Left ToolBar/myProject3.png</normaloff>:/resourcesLeft/icons/Left ToolBar/myProject3.png</iconset>
+   </property>
+   <property name="text">
+    <string>L1</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="IconsAndGifs.qrc"/>
+  <include location="IconsRight.qrc"/>
+ </resources>
+ <connections/>
+</ui>

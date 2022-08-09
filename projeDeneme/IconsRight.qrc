@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/IconsRight">
+        <file>icons/Right ToolBar/Back.png</file>
+        <file>icons/Right ToolBar/Change views.png</file>
+        <file>icons/Right ToolBar/Configuration.png</file>
+        <file>icons/Right ToolBar/Forward.png</file>
+        <file>icons/Right ToolBar/Mapping mode.png</file>
+        <file>icons/Right ToolBar/myProject8.png</file>
+        <file>icons/Right ToolBar/myProject9.png</file>
+        <file>icons/Right ToolBar/myProject10.png</file>
+        <file>icons/Right ToolBar/myProject11.png</file>
+        <file>icons/Right ToolBar/myProject12.png</file>
+        <file>icons/Right ToolBar/myProject13.png</file>
+        <file>icons/Right ToolBar/myProject14.png</file>
+        <file>icons/Right ToolBar/myProject15.png</file>
+        <file>icons/Right ToolBar/PanningMode.png</file>
+        <file>icons/Right ToolBar/Pause.png</file>
+        <file>icons/Right ToolBar/Reset.png</file>
+        <file>icons/Right ToolBar/Shift.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/resourcesLeft">
+        <file>icons/Left ToolBar/myProject.png</file>
+        <file>icons/Left ToolBar/myProject2.png</file>
+        <file>icons/Left ToolBar/myProject3.png</file>
+        <file>icons/Left ToolBar/myProject4.png</file>
+        <file>icons/Left ToolBar/myProject5.png</file>
+        <file>icons/Left ToolBar/myProject6.png</file>
+        <file>icons/Left ToolBar/myProject7.png</file>
+        <file>icons/Signals/Signals.gif</file>
+        <file>icons/Signals/USB signals.gif</file>
+    </qresource>
+</RCC>
